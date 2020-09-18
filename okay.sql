@@ -1,4 +1,9 @@
+-- ---------------------------------------------------
 -- Init database to count number of times okay said
+-- ---------------------------------------------------
+USE test;
+
+-- Create okay table
 CREATE TABLE okay (
     num INT NOT NULL AUTO_INCREMENT, -- number of times okay said
     date DATETIME, -- date and time okay said/
