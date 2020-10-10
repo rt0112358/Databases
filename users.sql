@@ -9,4 +9,7 @@ CREATE TABLE users (
 );
 
 INSERT INTO users(UserId, UserPword) VALUES ('Bill', sha1('password'));
-INSERT INTO users(UserId, UserPword) VALUES ('Bob', sha1('password'));
+INSERT INTO users(UserId, UserPword) VALUES ('Bob', sha1('hdf52Dn5KQOWeB'));
+INSERT INTO users(UserId, UserPword) VALUES ('Carol', sha1('hdf52Dn5KQOWeB'));
+INSERT INTO users(UserId, UserPword) VALUES ('Frank', sha1('h'));
+INSERT INTO users(UserId, UserPword) VALUES ('Jolynne', sha1('hdf52Dn5KQOWe'));
