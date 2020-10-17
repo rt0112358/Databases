@@ -1,4 +1,8 @@
 # Databases
 MySQL
 
-*Loading database queries..*
+*Sample DB Data*  
+*Navigating the sample DBs with MySQL queries*  
+
+**TODO:**  
+- [ ] Usage
