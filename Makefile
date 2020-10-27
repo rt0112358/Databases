@@ -3,6 +3,6 @@ push:
 	@githome
 	@git status
 	@git add .
-	@git commit -m "Added quer[y] || [ies]"
+	@git commit -m "A bit of cleanup"
 	@git status
 	@git push

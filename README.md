@@ -1,8 +1,9 @@
 # Databases
-MySQL
+*MySQL Sample Databases and queries*  
 
-*Sample DB Data*  
-*Navigating the sample DBs with MySQL queries*  
+1. git clone
+2. Load SampleDatabase directory
+3. Run Queries
 
 **TODO:**  
-- [ ] Usage
+- [x] Usage
