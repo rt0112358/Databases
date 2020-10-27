@@ -17,5 +17,4 @@ WHERE
     TourneyLocation = @target_location
 GROUP BY
     TeamName
-HAVING 
-    Games_Won > 2;
+;

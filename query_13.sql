@@ -6,6 +6,7 @@ FROM Customers c
         SELECT * 
         FROM Engagements eng
         WHERE eng.CustomerID = c.CustomerID
+        AND eng.StartDate > "2012-12-31"
     )
 
 
