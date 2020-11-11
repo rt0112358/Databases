@@ -1,4 +1,4 @@
-USE test;
+USE users;
 
 DROP TABLE IF EXISTS users;
 
