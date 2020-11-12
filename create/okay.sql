@@ -1,7 +1,7 @@
 -- ---------------------------------------------------
 -- Init database to count number of times okay said
 -- ---------------------------------------------------
-USE test;
+USE stuff;
 
 -- Create okay table
 CREATE TABLE okay (
