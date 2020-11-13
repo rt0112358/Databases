@@ -1,4 +1,4 @@
-use stuff;
+use newstuff;
 
 -- build cats table if a cats table does not exists.
 create table if not exists cats (
@@ -9,7 +9,7 @@ create table if not exists cats (
 ); 
 
 -- insert if the primary key 'num' does not match the given 'num' value.
-insert ignore into cats (num, add_date, cat_name) values (1, CURRENT_TIMESTAMP, "billybob");
+-- insert ignore into cats (num, add_date, cat_name) values (1, CURRENT_TIMESTAMP, "billybob");
 
 -- view results
 select * from cats;
