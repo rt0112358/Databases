@@ -1,6 +1,6 @@
 # Backups
   
-*Physical backup steps *  
+*Physical backup steps*  
 ```bash
 $ mysql -u root -p
 ```
