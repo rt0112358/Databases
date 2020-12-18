@@ -1,7 +1,7 @@
 -- ---------------------------------------------------
 -- Init database to count number of times okay said
 -- ---------------------------------------------------
-USE stuff;
+USE saveme;
 
 -- Create okay table
 CREATE TABLE okay (
@@ -10,26 +10,26 @@ CREATE TABLE okay (
     PRIMARY KEY (num)
 );
 
--- init table data / example
-insert into okay (date) values (CURRENT_TIMESTAMP);
+-- -- init table data / example
+-- insert into okay (date) values (CURRENT_TIMESTAMP);
 
 
--- Loop to autofill table with 100 entries
-DELIMITER $$
+-- -- Loop to autofill table with 100 entries
+-- DELIMITER $$
 
-CREATE PROCEDURE FillData()
-BEGIN
+-- CREATE PROCEDURE FillData()
+-- BEGIN
 
-    DECLARE i INT DEFAULT 1;
+--     DECLARE i INT DEFAULT 1;
 
-    WHILE (i<=100) DO
-        INSERT INTO okay(date) VALUES(CURRENT_TIMESTAMP);
-        SET i=i+1;
-    END WHILE;
+--     WHILE (i<=100) DO
+--         INSERT INTO okay(date) VALUES(CURRENT_TIMESTAMP);
+--         SET i=i+1;
+--     END WHILE;
 
-END$$
+-- END$$
 
-DELIMITER ;
+-- DELIMITER ;
 
--- Execute the function
-call FillData();
+-- -- Execute the function
+-- call FillData();
