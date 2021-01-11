@@ -6,4 +6,4 @@
 3. Run Queries
 
 **TODO:**  
-- [x] Usage
+- [x] Usage ?
